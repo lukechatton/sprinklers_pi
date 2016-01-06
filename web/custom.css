@@ -1,6 +1,4 @@
-body {
-    background-color: #3F51B5;
-}
+
 
 /* override jquery mobile */
 .ui-corner-all {
@@ -13,6 +11,15 @@ body {
     box-shadow: none;
 }
 
+.well {
+    background-color: #EAEAEA;
+    border-radius: 0;
+}
+
+.ui-header {
+    height: 50px;
+}
+
 .ui-btn-up-c {
     background-color: #fff;
     background-image: none;
@@ -23,6 +30,26 @@ body {
     background-image: none;
 }
 
+/* navbar */
+.ui-bar-a {
+    background-image: none;
+    background-color: #3F51B5;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+/* navbar button */
+.ui-btn-left {
+    /*margin-top: 6px;*/
+}
+
+.ui-btn-right {
+    /*margin-top: 6px;*/
+}
+
+.ui-btn-center {
+    /*margin-top: 6px;*/
+}
 
 .custom-count-pos {
     font-size: 11px;

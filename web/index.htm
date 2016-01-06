@@ -72,16 +72,21 @@
         }
       </script>
       <div data-theme="a" data-role="header">
-        <h3>Sprinklers</h3><a data-role="button" href="Settings.htm" data-icon="gear" data-iconpos="left" class="ui-btn-right">Settings</a>
+        <a data-role="button" href="Settings.htm" data-icon="gear" data-iconpos="left" class="ui-btn-right">Settings</a>
 
       </div>
       <div data-role="content">
         <div data-role="fieldcontain">
+
+        <div class="well">
           <label for="systemz">Run Schedules</label>
           <select name="systemz" id="systemz" data-mini="true" data-role="slider">
             <option value="off">Off</option>
             <option value="on" selected>On</option>
           </select>
+        </div>
+
+          
         </div>
         <div id="sgif" style="display:none">
           <img src="rainbird.gif" height="70" width="90"><br/>
